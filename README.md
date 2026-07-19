@@ -3,8 +3,8 @@ This is a [micro](https://micro-editor.github.io/) setup I made primarely for my
 
 ## Installation
 To install the setup just install micro.
-Then go to `~/.config/micro` and paste the contents of this repository there.
-To check whether you pasted the files in the correct folder, make sure the `plug` folder is in the same folder as `buffers` and `backups` along with the `settings.json` and `bindings.json` files.
+Then go to `~/.config/micro` and paste the contents of this repository there.\
+To check whether you pasted the files in the correct folder, make sure the `plug` folder is in the same folder as `buffers` and `backups` along with the `settings.json` and `bindings.json` files.\
 If the computer asks you if you want to replace the `*.json` files say yes.
 
 ## Plugins
@@ -29,7 +29,7 @@ This setup contains a couple plugins that make using micro easier, here is the f
 Alternative Fuzzy Finder is enabled by 
 
 ### filemanager - modified
-I added three commands you can always use to create an empty file, empty folder or to duplicate a file into another.
+I added three commands you can always use to create an empty file, empty folder or to duplicate a file into another.\
 Here are the commands:
 - `file <path/to/file/name>`: creates an empty file
 - `dir <path/to/file/name>`: creates an empty directory
@@ -56,12 +56,12 @@ This will generate the jar file ready for release.
 The generated jar file can be easily runned with `javaRunRelease`.
 
 #### Hot Swap
-To change the code while the program is running (hot swap) you need to first run the jar file with the debug flags enabled.
-You can do so with the command `javaDebug`. Note that this will open the java console in the current tab of your micro instance.
-To change the code just open a java source file of your program, edit it and save it.
-This will automatically run the hot swap and the changes will show up in a couple seconds.
-Note that hot swap only works with edits to methods bodies.
-Class variables and function names cannot be updated.
+To change the code while the program is running (hot swap) you need to first run the jar file with the debug flags enabled.\
+You can do so with the command `javaDebug`. Note that this will open the java console in the current tab of your micro instance.\
+To change the code just open a java source file of your program, edit it and save it.\
+This will automatically run the hot swap and the changes will show up in a couple seconds.\
+Note that hot swap only works with edits to methods bodies.\
+Class variables and function names cannot be updated.\
 Also remember that changes to the code that is directly inside the public static void main method will be ignored.
 
 ### mlsp - modified
@@ -107,7 +107,7 @@ rg --version
 ```
 Then install the missing ones.
 
-For mlsp to show language suggestions you need to have that specific language LSP installed on you machine.
+For mlsp to show language suggestions you need to have that specific language LSP installed on you machine.\
 You can find a list of language servers in the following file: [LSP list](LSPs.md).
 
 Keep in mind this setup was only tested on Linux, thus it could break on other systems.
