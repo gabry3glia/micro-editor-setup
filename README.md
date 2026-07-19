@@ -7,6 +7,29 @@ Then go to `~/.config/micro` and paste the contents of this repository there.\
 To check whether you pasted the files in the correct folder, make sure the `plug` folder is in the same folder as `buffers` and `backups` along with the `settings.json` and `bindings.json` files.\
 If the computer asks you if you want to replace the `*.json` files say yes.
 
+## Main features, key binds and settings:
+You can read all the settings flags and key bindings in the respecive files: [settings.json](settings.json) and [bindings.json](bindings.json).
+Here is a list of the main features and their associated key binds:
+- **Alt + Delete**: deletes the word that follows the cursor in its current position
+- **Ctrl + u**: turns the selected text to upper case
+- **Ctrl + l**: turns the selected text to lower case
+- **Alt + Ctrl + u**: turns the selected text to capital case
+- **Alt + w**: moves to the previous tab
+- **Alt + e**: moves to the next tab
+- **Ctrl + Shift + Down**: adds a new cursor down, below the current cursor position
+- **Ctrl + Shift + Up**: adds a new cursor up, above the current cursor position
+- **Alt + n**: adds a new cursor at the beginning of the next occurence of the selected text
+- **Ctrl + j**: enters fuzzy search for file names
+- **Ctrl + k**: enters fuzzy search for file content (plain text)
+- **Alt + Ctrl + k**: enters fuzzy search for file content (regex)
+- **Alt + "**: surrounds the selected text with double quotes
+- **Alt + '**: surrounds the selected text with a single quote
+- **Alt + `**: surrounds the selected text with a backtick
+- **Alt + (**: surrounds the selected text with brackets
+- **Alt + [**: surrounds the selected text with square brackets
+- **Alt + {**: surrounds the selected text with curly brackets
+- **Alt + <**: surrounds the selected text with angle brackets 
+
 ## Plugins
 This setup contains a couple plugins that make using micro easier, here is the full list:
 - altfzf (1.0.0-G3Dev): implements fuzzy text and regex search across all files inside the current directory
