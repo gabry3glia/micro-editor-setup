@@ -8,7 +8,7 @@ To check whether you pasted the files in the correct folder, make sure the `plug
 If the computer asks you if you want to replace the `*.json` files say yes.
 
 ## Main features, key binds and settings:
-You can read all the settings flags and key bindings in the respecive files: [settings.json](settings.json) and [bindings.json](bindings.json).
+You can read all the settings flags and key bindings in the respecive files: [settings.json](settings.json) and [bindings.json](bindings.json).\
 Here is a list of the main features and their associated key binds:
 - **Alt + Delete**: deletes the word that follows the cursor in its current position
 - **Ctrl + u**: turns the selected text to upper case
