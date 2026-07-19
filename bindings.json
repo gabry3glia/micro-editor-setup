@@ -1,9 +1,6 @@
 {
 	// editing
 	"Alt-Delete": "SelectWordRight,Delete",
-	"Ctrl-u": "command:upper",
-	"Ctrl-l": "command:lower",
-	"Alt-Ctrl-u": "command:capital",
 
 	// tabs
 	"Alt-w": "PreviousTab",
@@ -33,7 +30,10 @@
 	// mlsp PLUGIN: bindings
 	"Ctrl-Space": "command: lsp autocomplete",
 
-	// manipulator PLUGIN: surround selection with common wrap characters
+	// manipulator PLUGIN: text manipulation and surround selection with common wrap characters
+	"Ctrl-u": "command:upper",
+	"Ctrl-l": "command:lower",
+	"Alt-Ctrl-u": "command:capital",
     "Alt-\"": "command:dquote",
    	"Alt-\'": "command:squote",
     "Alt-`": "command:backtick",
