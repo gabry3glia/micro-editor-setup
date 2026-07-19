@@ -9,31 +9,31 @@
 	"Alt-w": "PreviousTab",
 	"Alt-e": "NextTab",
 
-	// multicursor utilities	
+	// multicursor utilities
 	"CtrlShiftDown": "SpawnMultiCursorDown",
 	"CtrlShiftUp": "SpawnMultiCursorUp",
 	"Alt-n": "SpawnMultiCursor",
 
-	// file management
+	// filemanager PLUGIN: file management (only works in the tree tab)
 	"Alt-d": "command-edit:mkdir ",
 	"Alt-f": "command-edit:touch ",
 
-	// fuzzy finder for file names
+	// fzfinder PLUGIN: fuzzy finder for file names
 	"Ctrl-j": "command:fzfinder",
-	// fuzzy finder for files content
+	// altfzf PLUGIN: fuzzy finder for files content
 	"Ctrl-k": "lua:altfzf.wordfzf",
 	"Alt-Ctrl-k": "lua:altfzf.regexfzf",
 
-	// shrink/grow splits (a bit buggy byut it kinda words)
+	// resize PLUGIN: shrink/grow splits (a bit buggy but it works most of the times)
 	"Alt-j": "command:shrink_X",
 	"Alt-l": "command:grow_X",
 	"Alt-i": "command:shrink_Y",
 	"Alt-k": "command:grow_Y",
 
-	// mlsp bindings
+	// mlsp PLUGIN: bindings
 	"Ctrl-Space": "command: lsp autocomplete",
 
-	// MANIPULATOR PLUGIN: surround selection with common wrap characters
+	// manipulator PLUGIN: surround selection with common wrap characters
     "Alt-\"": "command:dquote",
    	"Alt-\'": "command:squote",
     "Alt-`": "command:backtick",
