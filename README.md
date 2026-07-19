@@ -139,6 +139,6 @@ You can find a list of language servers in the following file: [LSP list](LSPs.m
 Keep in mind this setup was only tested on Linux, thus it could break on other systems.
 
 ## About
-Micro (https://micro-editor.github.io/) is a terminal-based text editor.
-The listed plugins that show the "G3Dev" flag after the version number were made by me.
+Micro (https://micro-editor.github.io/) is a terminal-based text editor.\
+The listed plugins that show the "G3Dev" flag after the version number were made by me.\
 The listed plugins that show the "modified" flag after the version number are modified versions of existing plugins.
