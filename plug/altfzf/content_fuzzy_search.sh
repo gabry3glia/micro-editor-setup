@@ -3,7 +3,7 @@
 MODE=$1
 TARGET_DIR=$2
 
-# Se Micro ci ha passato una cartella valida, ci spostiamo lì dentro prima di cercare
+# If micro returned a valid folder, we move there before starting the fuzzy search
 if [ ! -z "$TARGET_DIR" ] && [ -d "$TARGET_DIR" ]; then
     cd "$TARGET_DIR"
 fi
@@ -24,7 +24,7 @@ else
 fi
 
 if [ ! -z "$RES" ]; then
-    # Riaggiungiamo il percorso assoluto davanti al risultato per essere sicuri che Micro non lo perda
+    # Keep the absolute path before the seatch result file name
     echo "$(pwd)/$RES" > /tmp/micro_fzf_result
 else
     rm -f /tmp/micro_fzf_result
