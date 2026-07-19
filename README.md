@@ -93,7 +93,10 @@ Two settings flags where added for changing the default hints format:
 - `mlsp.java_hints_format`: "detailed" by default, it can also be set to "simple" (only for the Java language)
 	- "simple" format works as follows:
 		- variables: "name [v]"
-		- functions: "name [f]"
+		- functions: "name [f]"\
+  		Examples:
+			- The variable `static final int TIME = 10` will be shown as `TIME [v]`
+			- The function `public void sayHello(int times)` will be shown as `sayHello [f]`
 	- "detailed" format works as follows:
 		visibility = p (public), r (private), c (protected), i (package)
 		- variable: name [visibility-v: type]
