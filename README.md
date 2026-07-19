@@ -35,11 +35,11 @@ This setup contains a couple plugins that make using micro easier, here is the f
 - **altfzf (1.0.0-G3Dev)**: implements fuzzy text and regex search across all files inside the current directory
 - **detectindent (1.1.1)**
 - **filemanager (3.5.1-modified)**: a modified version of https://github.com/NicolaiSoeborg/filemanager-plugin that includes commands that also work outside of the tree tab
-- **fzfinder (0.1.0)**
+- **fzfinder (0.1.0)**: allow to perform fuzzy search on file names
 - **javautils (1.0.0-G3Dev)**: java utilities (inclued project building, running and hot swap)
-- **manipulator (1.4.0)**
+- **manipulator (1.4.0)**: allow to perform string manipulations
 - **mlsp (0.2.0-modified)**: a modified version of https://github.com/Andriamanitra/mlsp that adapts the hints format to a more readble one
-- **resize (1.0.0)**
+- **resize (1.0.0)**: allows to resize vsplit and hsplit views
 - **autoclose (built-in)**
 - **comment (built-in)**
 - **diff (built-in)**
@@ -142,3 +142,4 @@ Keep in mind this setup was only tested on Linux, thus it could break on other s
 Micro (https://micro-editor.github.io/) is a terminal-based text editor.\
 The listed plugins that show the "G3Dev" flag after the version number were made by me.\
 The listed plugins that show the "modified" flag after the version number are modified versions of existing plugins.
+The other plugins were built-in and/or left as they were.
