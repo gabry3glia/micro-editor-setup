@@ -100,11 +100,11 @@ Two settings flags where added for changing the default hints format:
 		- static variable: name[visibility-vs: type]
 		- final variable: name [visibility-vf: type]
 		- static final variable: name [visibility-vsf: type]
-		- function: name [visibility: (comma separated input types or "..." for undefined number of arguments) -> return type]
+		- function: name [visibility: (comma separated input types or "..." for undefined number of arguments) -> return type]\
 		Examples:
-		- The variable `static final int TIME = 10` will be shown as "TIME [ivsf: int]"
-		- The function `public void sayHello(int times)` will be shown as "sayHello [p: (int) -> void]"
-		- The function `private int calculate(float percentage)` will be shown as "calculate [r: (float) -> int]"
+			- The variable `static final int TIME = 10` will be shown as `TIME [ivsf: int]`
+			- The function `public void sayHello(int times)` will be shown as `sayHello [p: (int) -> void]`
+			- The function `private int calculate(float percentage)` will be shown as `calculate [r: (float) -> int]`
 To change these settings just set the flags in the `settings.json` file of your micro configuration:
 ```json
 {
