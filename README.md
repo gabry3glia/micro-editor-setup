@@ -141,5 +141,5 @@ Keep in mind this setup was only tested on Linux, thus it could break on other s
 ## About
 Micro (https://micro-editor.github.io/) is a terminal-based text editor.\
 The listed plugins that show the "G3Dev" flag after the version number were made by me.\
-The listed plugins that show the "modified" flag after the version number are modified versions of existing plugins.
+The listed plugins that show the "modified" flag after the version number are modified versions of existing plugins.\
 The other plugins were built-in and/or left as they were.
