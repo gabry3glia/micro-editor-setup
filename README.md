@@ -32,21 +32,21 @@ Here is a list of the main features and their associated key binds:
 
 ## Plugins
 This setup contains a couple plugins that make using micro easier, here is the full list:
-- altfzf (1.0.0-G3Dev): implements fuzzy text and regex search across all files inside the current directory
-- detectindent (1.1.1)
-- filemanager (3.5.1-modified): a modified version of https://github.com/NicolaiSoeborg/filemanager-plugin that includes commands that also work outside of the tree tab
-- fzfinder (0.1.0)
-- javautils (1.0.0-G3Dev): java utilities (inclued project building, running and hot swap)
-- manipulator (1.4.0)
-- mlsp (0.2.0-modified): a modified version of https://github.com/Andriamanitra/mlsp that adapts the hints format to a more readble one
-- resize (1.0.0)
-- autoclose (built-in)
-- comment (built-in)
-- diff (built-in)
-- ftoptions (built-in)
-- linter (built-in)
-- literate (built-in)
-- status (built-in)
+- **altfzf (1.0.0-G3Dev)**: implements fuzzy text and regex search across all files inside the current directory
+- **detectindent (1.1.1)**
+- **filemanager (3.5.1-modified)**: a modified version of https://github.com/NicolaiSoeborg/filemanager-plugin that includes commands that also work outside of the tree tab
+- **fzfinder (0.1.0)**
+- **javautils (1.0.0-G3Dev)**: java utilities (inclued project building, running and hot swap)
+- **manipulator (1.4.0)**
+- **mlsp (0.2.0-modified)**: a modified version of https://github.com/Andriamanitra/mlsp that adapts the hints format to a more readble one
+- **resize (1.0.0)**
+- **autoclose (built-in)**
+- **comment (built-in)**
+- **diff (built-in)**
+- **ftoptions (built-in)**
+- **linter (built-in)**
+- **literate (built-in)**
+- **status (built-in)**
 
 ### Altfzf
 Alternative Fuzzy Finder is enabled by 
