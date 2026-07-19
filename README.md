@@ -1,5 +1,11 @@
-# Micro setup
-This is a micro setup I made primarely for my needs feel free to use it or edit it as you need.
+# Micro Editor Setup
+This is a [micro](https://micro-editor.github.io/) setup I made primarely for my needs feel free to use it or edit it as you need.
+
+## Installation
+To install the setup just install micro.
+Then go to `~/.config/micro` and paste the contents of this repository there.
+To check whether you pasted the files in the correct folder, make sure the `plug` folder is in the same folder as `buffers` and `backups` along with the `settings.json` and `bindings.json` files.
+If the computer asks you if you want to replace the `*.json` files say yes.
 
 ## Plugins
 This setup contains a couple plugins that make using micro easier, here is the full list:
