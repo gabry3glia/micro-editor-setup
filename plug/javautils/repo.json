@@ -1,0 +1,7 @@
+{
+    "Name": "javautils",
+    "Description": "Java utilities for project building, running and hot swap",
+    "Author": "G3Dev",
+    "Version": "1.0.0",
+    "License": "MIT"
+}

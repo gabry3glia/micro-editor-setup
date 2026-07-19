@@ -1,0 +1,44 @@
+{
+	// editing
+	"Alt-Delete": "SelectWordRight,Delete",
+	"Ctrl-u": "command:upper",
+	"Ctrl-l": "command:lower",
+	"Alt-Ctrl-u": "command:capital",
+
+	// tabs
+	"Alt-w": "PreviousTab",
+	"Alt-e": "NextTab",
+
+	// multicursor utilities	
+	"CtrlShiftDown": "SpawnMultiCursorDown",
+	"CtrlShiftUp": "SpawnMultiCursorUp",
+	"Alt-n": "SpawnMultiCursor",
+
+	// file management
+	"Alt-d": "command-edit:mkdir ",
+	"Alt-f": "command-edit:touch ",
+
+	// fuzzy finder for file names
+	"Ctrl-j": "command:fzfinder",
+	// fuzzy finder for files content
+	"Ctrl-k": "lua:altfzf.wordfzf",
+	"Alt-Ctrl-k": "lua:altfzf.regexfzf",
+
+	// shrink/grow splits (a bit buggy byut it kinda words)
+	"Alt-j": "command:shrink_X",
+	"Alt-l": "command:grow_X",
+	"Alt-i": "command:shrink_Y",
+	"Alt-k": "command:grow_Y",
+
+	// mlsp bindings
+	"Ctrl-Space": "command: lsp autocomplete",
+
+	// MANIPULATOR PLUGIN: surround selection with common wrap characters
+    "Alt-\"": "command:dquote",
+   	"Alt-\'": "command:squote",
+    "Alt-`": "command:backtick",
+ 	"Alt-(": "command:brace",
+    "Alt-[": "command:square",
+    "Alt-{": "command:curly",
+    "Alt-<": "command:angle"
+}

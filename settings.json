@@ -1,0 +1,36 @@
+{
+    "fzfarg": "--layout=reverse --preview 'bat -f -p {}'",
+    "fzfcmd": "/usr/bin/fzf",
+    "fzfopen": "newtab",
+    "fzfpath": "relative",
+    "filemanager-showdotfiles": true,
+    "filemanager-showignored": true,
+    "filemanager-compressparent": true,
+    "filemanager-foldersfirst": true,
+    "filemanager-openonstart": true,
+
+	"infobarautocomplete": true,
+    "tabautocomplete": true,
+
+    // non Java hints format
+    // - false (default): uses the original mlsp plugin hint format
+    // - true: only shows symbols names
+    "mlsp.only_names": false,
+
+    // Custom format for Java hints (only for jdtls):
+    // SIMPLE ("java_hints_format": "simple")
+	// - variable: name [v]
+	// - function: name [f]
+	// DETAILED (default) ("java_hints_format": "detailed")
+	// visibility = p (public), r (private), c (protected), i (package)
+	// - variable: name [visibility-v: type]
+	// - static variable: name[visibility-vs: type]
+	// - final variable: name [visibility-vf: type]
+	// - static final variable: name [visibility-vsf: type]
+	// - function: name [visibility: (comma separated input types or "..." for undefined number of arguments) -> return type]
+    "mlsp.java_hints_format": "simple",
+                
+    "pluginrepos": [
+        "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json"
+    ]
+}

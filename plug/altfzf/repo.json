@@ -1,0 +1,7 @@
+[{
+    "Name": "altfzf",
+    "Description": "Fuzzy text and regex search across files in the current directory.",
+    "Author": "G3Dev",
+    "Version": "1.0.0",
+    "License": "MIT"
+}]
